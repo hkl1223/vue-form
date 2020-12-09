@@ -63,7 +63,7 @@
       </label>
       <label>
         <span>密码</span>
-        <input type="password" v-model.trim.number="user.password" />
+        <input type="password" v-model.trim="user.password" />
       </label>
       <button type="submit">登录</button>
     </form>
