@@ -59,7 +59,7 @@
       <hr />
       <label>
         <span>用户名</span>
-        <input type="text" v-model.trim.number="user.username" />
+        <input type="text" v-model.trim="user.username" />
       </label>
       <label>
         <span>密码</span>
